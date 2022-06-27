@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Install dependencies
-apt-get install -y
-apt-get install git nano curl -y
+sudo apt-get install -y
+sudo apt-get install git nano curl -y
 
 # Install brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
