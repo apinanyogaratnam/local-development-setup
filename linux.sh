@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# pre install for docker image
+# su -
+# apt-get install sudo
+# usermod -aG sudo root
+# sudo apt-get update
+
 # Install dependencies
 sudo apt-get install -y
 sudo apt-get install git nano curl -y
